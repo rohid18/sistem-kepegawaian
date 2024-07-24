@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+.dashboard-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #4CAF50;
+    padding: 10px 10px;
+    color: white;
+}
+
+.dashboard-container nav.menu a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.dashboard-container nav.menu a:hover {
+    text-decoration: underline;
+}
+
+.dashboard-container form button {
+    background: #f44336;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dashboard-container form button:hover {
+    background: #d32f2f;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.message {
+    color: green;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group input[type="date"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.form-group button {
+    background: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.button {
+    background: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    align-self: center;
+}
+
+.form-group button:hover {
+    background: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #4CAF50;
+    color: white;
+}
+
+td a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
